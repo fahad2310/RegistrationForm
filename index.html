@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="exp2.css">
+</head>
+<body>
+    <div class="container">
+    <form>
+        <h1 class="main_heading">Registration Page</h1>
+        <p>First Name * : <input type="text" name="fname"  placeholder="Enter your first name" required></p>
+        <p>Last Name * : <input type="text" name="lname"  placeholder="Enter your last name" required></p>
+        <p>SAP - ID * : <input type="number" name="sap" id="sap" placeholder="Enter the SAP-ID" required></p>
+        <p>Division * :
+            <select name="div" id="div">
+                <option value="">--Select Your Branch--</option>
+                <option value="A">Comps</option>
+                <option value="B">IT</option>
+                <option value="B">AIDS</option>
+                <option value="B">AIML</option>
+                <option value="B">CS DS</option>
+            </select>
+        </p>
+        <p>Date of Birth * : <input type="date" name="dob" id="dob" required></p>
+        <fieldset>
+            <legend>Gender</legend>
+            <p>
+                Male <input type="radio" name="gender" id="male"> Female <input type="radio" name="gender" id="female">
+            </p>
+        </fieldset>
+        <p>Address : <textarea name="add" id="add" cols="30" rows="10" placeholder="Enter your Address"></textarea></p>
+        <p>Pincode * : <input type="number" name="pin" id="pin" placeholder="Eg.400058" required></p>
+        <p>Email * : <input type="email" name="email" id="email" placeholder="Enter your Email Id" required></p>
+        <p>Phone No. * : <input type="number" name="ph" id="ph" placeholder="Enter your Mobile no." required></p>
+        <p>Password *: <input type="password" name="pass" id="pass" placeholder="Choose a Password"></p>
+        <p> Confirm Password *: <input type="password" name="pass" id="pass" placeholder="Choose a Password"></p>
+       
+        <input type="submit" value="Register" >
+        
+    </form>
+</div>
+</body>
+</html>
